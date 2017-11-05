@@ -13,7 +13,7 @@ class puppetlabs::gpg {
         # This is based on puppetlabs-apt >= 2.0.0
         apt::key { 'puppet gpg key':
             id     => '6F6B15509CF8E59E6E469F327F438280EF8D349F',
-            server => 'pgp.mit.edu',
+            server => 'keyserver.ubuntu.com',
         }
     }
 }
