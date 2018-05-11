@@ -2,7 +2,7 @@
   "name": "puppetfinland-puppetlabs",
   "version": "0.1.0",
   "author": "Puppet-Finland team",
-  "license": "BSD license",
+  "license": "BSD-2-Clause",
   "summary": "Setup Puppetlabs GPG keys",
   "source": "https://github.com/Puppet-Finland/puppet-puppetlabs.git",
   "project_page": "https://github.com/Puppet-Finland/puppet-puppetlabs",
