@@ -1,17 +1,12 @@
 # puppetlabs
 
-A Puppet module for managing Puppetlabs GPG keys.
+A Puppet module for managing Puppetlabs apt signing keys.
 
 # Module usage
 
-Usage from Hiera:
+Usage from a manifest:
 
-    classes:
-        - puppetlabs
-
-# Dependencies
-
-See [metadata.json](metadata.json).
+    include ::puppetlabs
 
 # Operating system support
 
@@ -23,4 +18,4 @@ is current a no-op.
 The code that does the hard lifting has been taken from 
 [here](https://puppet.com/blog/updated-puppet-gpg-signing-key) under the 
 assumption the code can be freely used. Those parts are probably not under the 
-BSD license (see [LICENSE](LICENSE)).
+BSD-2-Clause license (see [LICENSE](LICENSE)).
